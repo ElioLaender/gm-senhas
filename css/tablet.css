@@ -1,0 +1,408 @@
+
+body {
+
+    overflow-x: hidden;
+    color: #333333;
+
+}
+
+
+[class*="col-"], footer, nav, aside, section, div[role="main"]{
+    text-align: center;
+}
+
+.conteiner .view-um-position {
+
+    margin: 10% auto;/*primeiro att refere a top e botton, e o segundo se refere a left right.*/
+
+}
+
+.view{
+
+    margin: auto;
+    width: 650px;
+    //border: solid black;
+}
+
+.pai {
+
+    width: 100%;
+//height: 100%; /*caso não declarado a altura, ela assume a altura necessária para envolvar todos os filhos.*/
+    margin: auto;
+//border: solid red;
+}
+
+/*formatação do cabeçalho */
+header{
+    display: none;
+    position: fixed;
+    z-index: 998;
+    width: 100%;
+    height: 55px;
+}
+
+
+header img{
+
+    float: left;
+    margin-top: 0px;
+    width: 50px;
+    height: 25px;
+    cursor: pointer;
+}
+
+span{
+    color: #23636E;
+}
+
+.titulo-container{
+
+    font-size: 30px;
+}
+
+.btn-menu{
+    background: none;
+    border: none;
+}
+
+
+
+a:link{
+    text-decoration: none;
+}
+/*encerra formatação do cabeçalho*/
+
+
+/*formatação conteiner */
+.container-um {
+    width: 100%;
+    height: 900px;
+}
+
+
+.container-um img{
+
+    margin: auto;
+    margin: 70px 0px 20px 0px;
+
+    width: 150px;
+    height: 150px;
+
+}
+
+
+
+
+/* css referente ao conteiner dois */
+.container-dois {
+    width: 100%;
+    height: 500px;
+//border: solid black;
+}
+
+section img, section h2,section h3, section h4, section h5{
+    position: relative;
+    margin: auto;
+//border: solid pink;
+}
+
+/*
+.teste{
+    position: absolute;
+    margin: auto;
+    border: solid pink;
+}
+
+*/
+
+.text-box{
+  //  position: relative;
+    display: block;
+    width: 600px;
+    height: 350px;
+    padding: 11px;
+    text-align: justify;
+    font-size: 18px;
+    background-color: white;
+    border: 3px solid rgba(245,245,245,1);
+    border-radius: 2%;
+}
+
+.text-box:hover{
+    border: 3px solid #4E69B2;
+}
+
+.icon-titulo {
+    width: 60px;
+    height: 60px;
+}
+
+/*encerra css referente ao conteiner dois */
+
+/*formatação container 3 */
+.container-tres {
+    height: 800px;
+}
+
+.container-face{
+    height: 400px;
+}
+
+.traco {
+    width: 650px;
+    border: 3px solid rgba(220,220,220,1);
+    margin: 0px 0px 20px 0px;
+}
+
+.icon-position03{
+    margin: 0px 0px 0px -20px;
+}
+
+.information-b3{
+    margin-top: 15px;
+    font-size: 16px;
+    color: #333333;
+}
+
+
+.titulo-position03{
+    margin: 130px 0px 0px 0px;
+}
+
+/*formulário container 3*/
+.form-cadastro {
+    width: 600px;
+    height: 100%;
+ //border: solid black;
+
+}
+
+
+
+/*encerra formatação do conteiner 3*/
+
+
+/*inicia formatação do conteiner 4*/
+
+textarea{
+    height: 150px!important;
+    text-align: left!important;
+    resize: none;
+}
+
+/*encerra formatação do conteiner 4*/
+
+
+
+
+
+.bg-claro {
+    background-color: rgba(250,250,250,1);
+}
+
+/*
+.camada-escura{
+     position: absolute;
+     width: 100%;
+
+     height: 900px;
+     background-color: rgba(0,0,0,0.5);
+} */
+
+
+.bg-musgo{
+    background-color: #4E69B2;//#1D70B7;
+}
+
+.bg-silver{
+    background-color: #778899;
+}
+
+.bg-blue{
+    background-color: #20B2AA;
+}
+
+.bg-pink{
+    background-color: #EE82EE;
+}
+
+
+
+/*Formatação do formlário*/
+form {
+// position: relative;
+    width: 600px;
+    height: 100%;
+//float: left;
+//border: solid red;
+
+}
+
+.bloco {
+    display: block;
+}
+
+legend {
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    color:black;
+    border-bottom: solid #4E69B2;
+}
+
+label {
+    outline:none;
+    font-size: 15px;
+    margin-right: 5px;
+    margin-top: 20px;
+    color: black;
+}
+
+.texto-label {
+    margin-right: -200px!important;
+}
+
+textarea:focus {
+    outline:none;
+    background-color: rgba(0,0,0,0.8);
+}
+
+form input[type="text"]:focus {
+    outline:none;
+    background-color: rgba(0,0,0,0.8);
+}
+button:focus{
+    outline: none;
+}
+
+input[type="text"],input[type="email"], textarea{
+    width: 100%;
+    height: 48px;
+    margin: 10px 0px 10px 0px;
+    color: white;
+    font-size: 14px;
+    border: none;
+    background-color:rgba(0,0,0,0.6);
+    text-align: center;
+    padding: 5px;
+    transition: 0.2s ease-in;
+}
+
+
+/*formatação dos botões checkBox*/
+input[type="checkbox"]{
+
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 10px;
+}
+/*botão checkbox "duble"*/
+input[type="checkbox"]:before{
+    content:" ";
+    background-color: rgba(220,220,220,1);;
+    display: inline-block;
+    margin: -1px 0px 0px 0px;
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+    border: 2px solid  rgba(220,220,220,1);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+//line-height: 12px;
+}
+input[type="checkbox"]:checked:before {
+
+    content:"x";
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    color: black;
+}
+
+
+/* encerra formatação dos botões checkBox*/
+
+
+/*formata botão gerar*/
+.gerar{
+    background-color: rgb(01,05,01);
+    cursor: pointer;
+    background-color: rgba(220,220,220,1);
+    transition: 0.2s ease-in;
+    color: black;
+    font-size: 15px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.gerar:hover{
+    background-color:rgba(0,0,0,0.8);
+    color: white;
+}
+/*encerra formatação da caixa */
+
+
+/*Encerra formatação do formulário*/
+
+
+/*formatação do rodapé*/
+footer{
+    position: relative;
+// border-buttom: -10px;
+    width: 100%;
+    height: 150px;
+}
+
+.altura-rodape{
+    height: 150px;
+
+}
+
+.font-rodape{
+
+    font-size: 16px;
+    color: white;
+}
+
+
+.box01-rodape{
+    position: absolute;
+    margin: 20px 0px 0px 230px;
+
+}
+
+.box02-rodape{
+    position: absolute;
+    margin:  100px 0px 0px 180px;
+}
+
+
+/*formatação do rodapé*/
+
+/*formatação da div do gif e div de retorno do AJAX*/
+
+.retorno{
+    font-family:Calibri, 'Trebuchet MS', Verdana; font-size: 15px; text-align: center; display:none; padding: 10px 10px 10px 10px;margin-top: -200px;
+}
+
+.carregando {
+
+    text-align:center;display:none;margin-top: -300px;
+}
+
+.like {
+
+    //border: solid black;
+   // margin-top: -230px;
+    height: 100px;
+}
+
+
+
+
+

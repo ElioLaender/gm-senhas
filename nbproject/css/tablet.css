@@ -1,0 +1,9 @@
+body {
+background-color: pink;
+}
+
+.view{
+    margin: auto;
+    width: 100%;
+    border: solid rgba(0,0,0,0); //gambiarra da margem.
+}
