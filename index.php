@@ -3,47 +3,36 @@
 <html lang="pt-br">
 	<head>
 		<title>Gera mais - Senhas</title>
-		
 		<!-- define a viewport -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="utf-8">
-        <meta name="language" content="pt-br" />
-        <meta name="description" content=" O GM-Senhas foi desenvolvido para conscientizar usuários sobre a segurança da informação. Temos como proposta reforçar a troca de senhas periodicamente. Para isso, oferecemos um gerador de senhas online juntamente com o sistema de agendamento." />
-        <meta name="keywords" content="gerdor, senha, segurança da informação, GM-Senhas, Élio Laender, gerador de senha" />
-        <meta name="author" content="Élio Laender" />
-
-
-
-
-
-                            <!-- css do menu Mobile-->
-                    <link rel="stylesheet" href="css/animate.css">
-                 <link rel="stylesheet" href="css/style.css">
-                 <link rel="stylesheet" href="css/slicknav.css">
+		<meta name="language" content="pt-br" />
+		<meta name="description" content=" O GM-Senhas foi desenvolvido para conscientizar usuários sobre a segurança da informação. Temos como proposta reforçar a troca de senhas periodicamente. Para isso, oferecemos um gerador de senhas online juntamente com o sistema de agendamento." />
+		<meta name="keywords" content="gerdor, senha, segurança da informação, GM-Senhas, Élio Laender, gerador de senha" />
+		<meta name="author" content="Élio Laender" />
+                <!-- css do menu Mobile-->
+                <link rel="stylesheet" href="css/animate.css">
+                <link rel="stylesheet" href="css/style.css">
+                <link rel="stylesheet" href="css/slicknav.css">
                 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
                 <link rel="stylesheet" href="//resources/demos/style.css">
 
-		        <!-- adicionar CSS Bootstrap -->
+		<!-- adicionar CSS Bootstrap -->
                 <link href="css/bootstrap.min.css" rel="stylesheet">
                 <link href="css/style.css" rel="stylesheet">
                 <!-- arquivo css pessoal -->
                 <link href="css/estilo.css" rel="stylesheet" media="screen">
                 <!-- versão mobile -->
                 <link rel="stylesheet" href="css/hand.css" type="text/css" media="screen and (max-width: 700px)">
-                <link rel="stylesheet" href="css/tablet.css" type="text/css" media="screen and (min-width: 701px) and (max-width: 995px)">
-                
+                <link rel="stylesheet" href="css/tablet.css" type="text/css" media="screen and (min-width: 701px) and (max-width: 995px)"> 
 	</head>
-	<body id="topo" >
-            
-                                  
+	<body id="topo" >                    
             <div class="container-fluid"><!-- contém toda a página. Container-fluid faz com que o site seja 100background-->
                 <div class="row">
                         <!-- cabeçalho -->
                         <header class="bg-claro">
                             <div class="row view">
                                 <div class="col-md-12">
-                                    
-
                                     <img src="img/icon-gm-text.png"  onclick="parallax('topo')" />
                                     <ul id="menu">
                                         <li><button class="btn-menu"  onclick="parallax('topo')" >INICIO</button></li>
@@ -55,17 +44,13 @@
                                 </div><!--encerra coluna header-->
                             </div><!--encerra linha header -->
                         </header><!-- encerra cabeçalho --> 
-
                         <div role="main"><!-- atributo semantico do html5 para definir o conteúdo principal-->
-
                             <div class="conteiner"><!-- primeiro conteudo, é declarado um container a cada container rs. -->
                                 <div class="row view">
                                     <div class="col-md-12 container-um">
-
                                         <div class="view-um-position"><!-- centraliza o formulário na tela, independente da resolução. -->
                                           <img src="img/icon-gm.png"/>   
-                                        <form id="form_gerador" class="form-cadastro">
-                                           
+                                        <form id="form_gerador" class="form-cadastro">  
                                             <fieldset>
                                                 <legend >Como deseja sua nova senha ?</legend>
                                                       <label for="numero" >Numeros:</label>
@@ -84,39 +69,21 @@
                                                       <label for="gerar" class="bloco texto-label">Senha gerada:</label>
                                                         <input type="text" id="saida-senha" class="saida-senha"/>
                                                         <div id="pass-info" class=""></div>
-
                                              </fieldset>
                                             </form>
-
-
-
-
                                       </div><!-- encerra class view que centraliza o formulário.-->
                                     </div> <!--encerra coluna conteiner 01-->
-
-
                                 </div><!--encerra linha conteiner 01-->
-                               
                             </div><!--encerra conteiner 01 -->
-                            
                             <div id="saiba-mais" class="conteiner"><!--inicia conteiner semântico 02-->
                                 <div class="row view">
-
                                     <div class="traco"></div><!-- traço que separa um container do outro -->
-
-                                    <section class="col-md-6 container-dois wow slideInLeft" data-wow-duration="2s"><!--colunaUm container 02-->
-                                        
-                                            
+                                    <section class="col-md-6 container-dois wow slideInLeft" data-wow-duration="2s"><!--colunaUm container 02-->   
                                                 <img  src="img/icon-security.png" class="icon-titulo icon-position01" />
-                                          
-                                           
-                                                <h2 class="titulo-container titulo-position01">Como funciona?</h2>
-                                           
+                                                <h2 class="titulo-container titulo-position01">Como funciona?</h2>                                           
                                             <div class="text-box text-box-position01">
                                                 O GM-Senhas foi desenvolvido para conscientizar usuários sobre a segurança da informação. Temos como proposta reforçar a troca de senhas periodicamente. Para isso, oferecemos um gerador de senhas online juntamente com o sistema de agendamento. O agendamento funciona da sequinte maneira: você cadastra um email válido e seleciona uma data. Após isso, seleciona se deseja utilizar o serviço apenas uma vez ou periodicamente. Caso escolha receber email apenas uma vez, receberá um lembrete para trocar sua senha apenas no dia especificado no cadastro. Se escolher receber uma vez ao mês, o lembrete será enviado todo mês, partindo da data especificada no cadastro.
-                                            </div>
-                                       
-                                        
+					    </div>       
                                     </section><!-- encerra colunaUM conteiner 02 -->
                                     
                                     <section class="col-md-6 container-dois  wow slideInRight" data-wow-duration="2s"><!--colunaDois container 02-->
@@ -125,7 +92,6 @@
                                             <h2 class="titulo-container titulo-position02">Segurança</h2>
                                        <div class="text-box text-box-position02">
                                            A senha é criada totalmente no navegador através da linguagem de programação Javascript, sendo que o servidor web não recebe nenhuma informação referente a senha gerada no formulário. Conforme dito anteriormente, o GM-Senhas não recebe nenhuma informação que diz respeito a senha do usuário, ou seja, o sistema não armazena a senha que está sendo gerada, o processamento é realizado inteiramente na máquina do usuário.
-
                                        </div>
                                     </section><!-- encerra colunaDois conteiner 02 -->
                                     
@@ -137,21 +103,11 @@
                                 <div class="row view"><!-- inicia linha container tres -->
                                     <div class="traco"></div><!-- traço que separa um container do outro -->
                                     <div class="col-lg-12 container-tres"> <!-- inicia coluna container tres -->
-                                        
-
-                                             
-
-                                      
                                         <img  src="img/icon-cadastro.png" class="icon-titulo icon-position03" />
-                                        
-                                            <h4 class="titulo-container ">Cadastro de email</h4>
-                                            
+                                            <h4 class="titulo-container ">Cadastro de email</h4>            
                                             <p class="information-b3">Realize o cadastro para receber um email solicitando a geração de uma nova senha.</p>
-
                                                 <form id="form-cadastro" class="form-cadastro" method="POST">
                                                     <fieldset>
-                                                      
-                                                     
                                                         <input type="text" id="nome-cadastro" name="cadastro-nome" placeholder="Nome:" />
                                                         <p id="alerta-nome"></p>
                                                         <input id="email-cadastro" type="text" name="cadastro-email" placeholder="Email:"/>
@@ -170,10 +126,7 @@
                                                 </form>
                                              <!-- div que contém a imagem gif a ser carregada cadastro de email -->
                                              <div id="carregando_envio" class="carregando"><img src="img/progressindicator.gif" width="75" /></div>
-
                                              <div id="retorno_envio" class="retorno bg-claro"></div>
-                                        
-
                                     </div><!-- encerra coluna container tres -->
                                 </div><!-- encerra linha container tres -->
                             </section><!-- encerra container 03 semântico -->
@@ -181,7 +134,6 @@
                             <section id="contato" class="container wow slideInLeft" data-wow-duration="1s"><!-- inicia conteiner semântico bloco quatro -->
                                 <div class="row view"><!-- linha referente ao container 4 -->
                                     <div class="traco"></div><!-- traço que separa um container do outro -->
-
                                 <div class="col-md-12 container-tres"><!-- inicia coluna full bloco 4 -->
 
                                     <img  src="img/icon-contato.png" class="icon-titulo icon-position03" />
@@ -206,41 +158,27 @@
                                     </form>
                                     <!-- div que contém a imagem gif a ser carregada envio de mensagem -->
                                     <div id="carregando_form" class="carregando"><img src="img/progressindicator.gif" width="75" /></div>
-
                                     <div id="retorno" class="retorno bg-claro"></div>
-                           
-                    <!--encerra formulário -->
-
+                    		<!--encerra formulário -->
                                 </div><!-- encerra coluna full bloco 4-->
                                 </div><!-- encerra linha referente ao bloco 4 -->
                             </section><!-- encerra conteiner semântico -->
-
-
-
-
                             <section id="facebook" class="container wow slideInLeft" data-wow-duration="1s"><!-- inicia conteiner semântico bloco quatro -->
                                 <div class="row view"><!-- linha referente ao container 4 -->
                                     <div class="traco"></div><!-- traço que separa um container do outro -->
-
                                     <div class="col-md-12 container-face"><!-- inicia coluna full bloco 4 -->
-
                                         <img  src="img/vai.png" class="icon-titulo icon-position03" />
-
                                         <h5 class="titulo-container">Estamos no Facebook</h5>
                                         <p class="information-b3">Curta nossa página e fique por dentro das novidades sobre segurança da informação.</p>
-
                                         <!-- FACE -->
                                         <div class="like">
                                             <div class="fb-like" data-href="https://www.facebook.com/pages/GM-Senhas/1614428622169192?fref=ts" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
                                         </div>
                                         <!-- FACE -->
-
-
-
                                     </div><!-- encerra coluna full bloco facePage-->
                                 </div><!-- encerra linha referente ao bloco 4=facePage -->
                             </section><!-- encerra conteiner semântico -->
-                      
+                     
                             </div><!--encerra role main conteúdo principal-->
 
                             <!-- rodapé -->
@@ -258,10 +196,7 @@
                             </footer><!--encerra rodape -->
                     </div><!-- encerra linha que está dentro da classe conteiner fluid -->
             </div><!-- enverra conteiner-fluid, onde todo a página está contida -->
-
-
-        
-		<!-- referente aos scripts JS utilizados no frameWork -->
+	    <!-- referente aos scripts JS utilizados no frameWork -->
             <script src="js/jquery.min.js" async></script>
 		<script src="js/bootstrap.min.js" async></script>
 		<script src="js/main.js" async></script>
@@ -283,7 +218,6 @@
 
                         });
                     });
-
 
                     //Realiza os calculos para gerar senhas aleatórias.
                     function gerador(){
@@ -314,10 +248,6 @@
                          * vetor. O segundo argumento especifica o tamanho do vetor, desconsiderando o restante da string.
                          */
                         var vetorHashPrincipal = hashPrincipal.split("",hashPrincipal.length);
-
-
-
-
 
                         //recebe os valores aleatórios que serão gerados dinamicamente dentro do for.
                         var valorAleatorio;
@@ -374,12 +304,7 @@
                                 password1.removeClass().addClass('saida-muito-fraca');
                             }
 
-
                         }
-
-
-
-
                         <!-- encerra teste -->
 
                     }
@@ -412,10 +337,6 @@
                             return true;
 
                         }
-
-
-
-
 
                         //validação do formulário de cadastro de email
                         function validaCadastro(){
@@ -463,7 +384,6 @@
 
                         function validaMensagem(){
 
-
                             var expressaoEmail = new RegExp(/^[a-zA-Z0-9._%+-]+@(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,4}$/gi);
                             var alertaNome = $('#alerta-nome-mensagem');
                             var alertaEmail = $('#alerta-email-mensagem');
@@ -503,11 +423,8 @@
                             return true;
                         }
 
-
                         <!-- encerra validação -->
                     </script>
-
-
                     <!--////////////////////////////javaScript(COMTÉM a função scrolltop)////////////-->	 
       <script type="text/javascript" src="jquery.min.js" async></script>
        <script type="text/javascript">
@@ -557,8 +474,6 @@
             
             
             <!-- teste wow -->
-                
-                
                 <script src="js/jquery.min"></script>
                 <script src="js/wow.js"></script>
                   <script>
@@ -730,10 +645,6 @@
                         }(document, 'script', 'facebook-jssdk'));
                     </script>
                     <!-- Encerra plugin facebook -->
-
-
-
-               
 
 	</body>
         
